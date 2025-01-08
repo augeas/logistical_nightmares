@@ -1,0 +1,5 @@
+marimo
+numba
+numpy
+pillow
+scipy
