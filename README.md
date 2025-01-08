@@ -11,4 +11,8 @@ If we take the recurrance relation
 
 $$\Large{x_{n+1}=rx_{n}}(1-x_{n})$$
 
-we can replace the single coefficient $r$ with some repeating sequence of two coefficients $A$ and $B$.
+we can replace the single coefficient $r$ varied across the horizontal access with some repeating sequence of two coefficients $A$ and $B$.
+For example, the sequence $ABAABBB$, where $A$ and $B$ are described by the points on a circle of radius 0.25 centred on (3.28, 3.28) looks
+like:
+
+![a somewhat distressed bifurfaction diagram](assets/ABAABBB.png)
