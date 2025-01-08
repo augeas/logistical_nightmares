@@ -57,7 +57,7 @@ For the hard-of-terminal, Marimo notebooks can also be run using [web assembly](
 
 Press the Big, Green Button:
 
-[![big green button](green_round_button.png)](https://tinyurl.com/logistic-8-1-25)
+[![big green button](assets/green_round_button.png)](https://tinyurl.com/logistic-8-1-25)
 
 (However, when doing so you will be limitted to short loops with low audio rates and bit depths, as Marimo's maximum output size when running in web assembly isn't very large.)
 
