@@ -9,8 +9,6 @@ lacks variety compared to some [other chaotic maps](https://en.wikipedia.org/wik
 
 If we take the recurrance relation
 
-$$
 $$\Large{x_{n+1}=rx_{n}}(1-x_{n})$$
-$$
 
 we can replace the single coefficient $r$ with some repeating sequence of two coefficients $A$ and $B$.
