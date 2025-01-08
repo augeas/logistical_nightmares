@@ -46,11 +46,22 @@ source ./logistic_venv/bin/activate
 git clone https://github.com/augeas/logistical_nightmares.git
 cd logistical_nightmares
 # Get the dependencies:
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 # Finally, run the notebook:
 marimo run logistic.py
 ```
 
 (To mess with the code, try `marimo edit`.)
+
+For the hard-of-terminal, Marimo notebooks can also be run using [web assembly](https://docs.marimo.io/guides/wasm/) in your browser, albeit in a limited fashion.
+
+Press the Big, Green Button:
+
+[![big green button](green_round_button.png)](https://tinyurl.com/logistic-8-1-25)
+
+(However, when doing so you will be limitted to short loops with low audio rates and bit depths, as Marimo's maximum output size when running in web assembly isn't very large.)
+
+
+
 
 
