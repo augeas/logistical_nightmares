@@ -26,7 +26,7 @@ of the spectra, multiplying by a
 [window function](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.blackmanharris.html)
 and summing the signals after overlapping them by a [hop-size](https://en.wikipedia.org/wiki/Short-time_Fourier_transform),
 an audio loop can be *perpetrated*. We can add two extra coefficients, $C$ and $D$ which also rotate, to produce a sequence
-of image that might look and sound something like [this](https://youtu.be/CvHFb1de2Vs?feature=shared).
+of images that might look and sound something like [this](https://youtu.be/CvHFb1de2Vs?feature=shared).
 
 This has been implemented in Python with the help of [Marimo](https://marimo.io/), [NumPy](https://numpy.org/),
 [SciPy](https://scipy.org/), [Pillow](https://pillow.readthedocs.io/en/stable/) [Numba](https://numba.pydata.org/),
@@ -61,6 +61,10 @@ Press the Big, Green Button:
 
 (However, when doing so you will be limitted to short loops with low audio rates and bit depths, as Marimo's maximum output size when running in web assembly isn't very large.)
 
+## Running The Script
+
+To generate a default track with three sequences of bifurcation diagrams rotating at different speeds, you can run `logistic.py` as a regular Python script,
+if you have FFmpeg, you get a video to go with it.
 
 
 
